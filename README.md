@@ -1,15 +1,15 @@
 
-TimeRelay is relay control class for Arduino
+# TimeRelay is relay control class for Arduino
 
 Relay can be set to manual or automatic operation. Relay state can be inverted.
 
- * Mode 1 - manually turn relay on or off
- * Mode 2 - turn relay on and it automatically switches off after predefined time
+* Mode 1 - manually turn relay on or off
+* Mode 2 - turn relay on and it automatically switches off after predefined time
 
 
 to use it:
 
-
+```
 #include <TimeRelay.h>
 
 TimeRelay relay(13);
@@ -26,6 +26,7 @@ loop(){
     }
 }
 
+```
 
 See examples folder for more
 
